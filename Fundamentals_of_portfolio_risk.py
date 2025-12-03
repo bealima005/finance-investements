@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 #input stock prices dataset
-stockfile = 'C:/Users/Utilizador/Desktop/Patinha Parreca/Projeto/HistoricalData_apple.csv'
+stockfile = 'C:/Users/Utilizador/Desktop/Projeto/HistoricalData_apple.csv'
 
 #reads the CSV file and turns it into a table - dataframe(df)
 df = pd.read_csv(stockfile)
@@ -39,6 +39,7 @@ def Stocks_Return_Computing (close_price, rows):
     return stock_return
 
 print(Stocks_Return_Computing(close_price= close_price, rows=20))
+
 
 
 
